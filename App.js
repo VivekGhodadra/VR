@@ -1,25 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import LoopImageRotate from './LoopImageRotate';
 
 const App = () => {
-  return (
-    <View style={styles.Container}>
-      <Text style={styles.text}>App</Text>
-    </View>
-  );
+  return <LoopImageRotate />;
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  Container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#fff',
-  },
-  text: {
-    fontSize: 50,
-    fontWeight: 'bold',
-  },
-});
